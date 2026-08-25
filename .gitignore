@@ -1,0 +1,27 @@
+# Python Virtual Environment
+.venv/
+env/
+venv/
+ENV/
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Project outputs & SQLite DB
+data/raw/*.csv
+data/processed/*.sqlite
+*.db
+*.sqlite3
+
+# Distribution / builds
+build/
+dist/
+*.egg-info/
